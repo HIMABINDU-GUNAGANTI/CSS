@@ -1,0 +1,44 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* TOPIC-Gradients
+       3 types
+       1.linear-gradient
+       2.radial-gradient
+       3.conic-gradient
+     */
+    
+    /* height: 735px;
+    background: linear-gradient(green,blue,pink,yellow,orange);
+    background: linear-gradient( to bottom,green,blue,pink,yellow,orange);
+    background: linear-gradient( to top,green,blue,pink,yellow,orange);
+    background: linear-gradient( to right,green,blue,pink,yellow,orange);
+    background: linear-gradient( to left,green,blue,pink,yellow,orange);
+    background: linear-gradient( to top left,green,blue,pink,yellow,orange);
+    background: linear-gradient( to top right,green,blue,pink,yellow,orange);
+    background: linear-gradient( to bottom left,green,blue,pink,yellow,orange);
+    background: linear-gradient( to bottom left,green,blue,pink,yellow,orange);
+
+    background: linear-gradient(orange 25%,white 50%,green 100%);
+    background: linear-gradient(orange 0% 33%,white 33% 66%,green 66% 100%);
+    background: linear-gradient(to bottom, orange 25%,white 50%,green 100%);
+    background: repeating-linear-gradient(to top, orange 25%,white 50%,green 30%);
+
+    background: radial-gradient(purple,white);
+    background: radial-gradient(ellipse, purple ,white);
+    background: radial-gradient(circle, purple 0% 20%,white 20% 40%);
+    background: repeating-radial-gradient(circle, purple 0% 20%,white 20% 40%); */
+
+    /* background: conic-gradient( blue,white); */
+
+}
+h1{
+    height: 400px;
+    width: 400px;
+    background: conic-gradient( blue 0% 20%,white 20% 40%);
+    background: repeating-conic-gradient( blue 0% 10%,pink 10% 20%);
+    border-radius: 50%;
+
+}

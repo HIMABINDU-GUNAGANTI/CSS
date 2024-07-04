@@ -1,0 +1,25 @@
+/* p::first-letter{
+    color: rebeccapurple;
+    font-size: 100px;
+}
+p::first-line{
+    background-color: red;
+} */
+span::before{
+    content: "😉";
+}
+span::after{
+    content: "😘";
+}
+p::selection{
+    color: red;
+    background-color: black;
+}
+ol li::marker{
+    color: pink;
+    content: "❤";
+}
+input::placeholder{
+    color: blueviolet;
+    background-color: khaki;
+}

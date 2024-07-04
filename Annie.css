@@ -1,0 +1,55 @@
+/* *{
+    margin: -6;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    /* background-color: yellow; */
+    border: 0px solid black;
+}
+
+nav{
+    height: 110px;
+    width: 56%;
+    /* background-color: pink; */
+    border: 3px solid black;
+    display: flex;
+}
+#logo{
+    height: inherit;
+    width: 10%;
+    position: relative;
+    /* border: 2px solid green; */
+    height: 110px;
+}
+#logo1{
+    height: 100px;
+    width: 110px;
+    position: relative;
+    left: 20px;
+    top: 9px;
+}
+#text{
+    /* border: 2px solid yellow; */
+    height: 110px;
+    width: 170%;
+    font-weight: 900;
+    font-size: 21px;
+    /* font-family: ; */
+    
+
+}
+#code{
+    height: inherit;
+    /* border: 2px solid violet; */
+    position: relative;
+
+    left: 200px;
+}
+section{
+    height:458px ;
+    width: 56%;
+    border: 3px solid black;
+    font-size: large;
+}
+

@@ -1,0 +1,20 @@
+/* input{
+    color: bisque;
+    background-color: yellow;
+} */
+
+input[type="text"]{
+    color: pink;
+    background-color: orange;
+}
+input[type="email"]{
+    color: khaki;
+    background-color:white;
+}
+input{
+    color: bisque;
+    background-color: green;
+}
+p[class~="bye"]
+    color: blue;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 70px;
+    width: 100vw;
+    /* background-color: yellow; */
+    display: flex;
+    border: 0px;
+}
+#one{
+    flex-basis: 14%;
+    height: inherit;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+#logo{
+    height: 59px;
+    width: 120px;
+    position: relative;
+    left: 16px;
+   
+}
+
+#one sup    {
+    position: relative;
+    bottom: 15px;
+    right: 0px;
+}
+#two{
+    flex-basis: 83%;
+    height: inherit;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#input{
+    border-radius: 2px;
+     height: 40px;
+    width: 600px;
+    border-radius: 40px;
+    position: relative;
+    left: 47px;
+
+    border-color: #cccccc;
+    
+}
+#search{
+    
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom-right-radius: 20px;
+    
+    
+    right: 31px;
+    border-top-right-radius: 20px;
+    height: 36px;
+     width: 75px;
+     
+}
+#mic{
+    position: relative;
+    right: 10px;
+    background-color: #f1f1f1;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+#three{
+    flex-basis: 15%;
+    height: inherit;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#button{
+    height: 100px;
+    width: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: purple;
+    position: relative;
+    top: 200px;
+    left: 600px;
+}
+footer{
+    height: 150px;
+    width: 150px;
+    background-color: greenyellow;
+    position: relative;
+    top: 75px;
+    left: 75px;
+}
+section{
+    height: 70px;
+    width: 70px;
+    background-color: pink;
+    position: relative;
+    top: 40px;
+    left: 40px;
+} */
+#red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+}
+#green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: absolute;
+}
+#blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    left: 200px;
+}
